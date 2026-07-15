@@ -16,7 +16,6 @@ mcp = FastMCP(
     "my-server",
     host="0.0.0.0",
     port=8080,
-
 )
 @mcp.tool()
 def echo(text: str) -> str:
